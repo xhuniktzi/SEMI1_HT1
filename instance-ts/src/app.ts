@@ -18,7 +18,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.get('/check', (req: Request, res: Response) => {
-    res.status(200);
+    res.status(200).send('');
 });
 
 app.listen(app.get('port'), () => {
